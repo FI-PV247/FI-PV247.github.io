@@ -2,6 +2,7 @@
 	"name": "pv247",
 	"version": "0.1.0",
 	"private": true,
+    "homepage": "https://fi-pv247.github.io/",
 	"scripts": {
 		"predeploy": "yarn build",
 		"deploy": "gh-pages -d build",
