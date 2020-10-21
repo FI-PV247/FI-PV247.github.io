@@ -1,7 +1,7 @@
 module.exports = {
 	mount: {
 		public: '/',
-		src: '/_dist_',
+		src: '/modules',
 	},
 	plugins: [
 		'@snowpack/plugin-react-refresh',
@@ -12,6 +12,7 @@ module.exports = {
 	buildOptions: {
 		sourceMaps: true,
 		clean: true,
+		metaDir: 'snowpack',
 	},
 	alias: {
 		Components: './src/Components',
