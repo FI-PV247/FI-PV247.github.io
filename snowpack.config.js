@@ -7,21 +7,11 @@ module.exports = {
 		'@snowpack/plugin-react-refresh',
 		'@snowpack/plugin-dotenv',
 		'@snowpack/plugin-typescript',
+		["@snowpack/plugin-optimize", {/* ... */}]
 	],
-	install: [
-		/* ... */
-	],
-	installOptions: {
-		/* ... */
-	},
-	devOptions: {
-		/* ... */
-	},
 	buildOptions: {
-		/* ... */
-	},
-	proxy: {
-		/* ... */
+		sourceMaps: true,
+		clean: true,
 	},
 	alias: {
 		Components: './src/Components',
