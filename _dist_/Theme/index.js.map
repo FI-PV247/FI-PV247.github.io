@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["C:\\Projects\\_PV247\\PV247\\src\\Theme\\index.ts"],
+  "sourcesContent": ["import styled, { CreateStyled } from '@emotion/styled/macro';\n\nexport const theme = {\n\tcolors: {\n\t\tprimary: '#7e57c2',\n\t\tprimaryLight: '#b085f5',\n\t\tsecondary: '#546e7a',\n\t\tonLight: '#eceff1',\n\t\tonDark: '#fff',\n\t\tsurface: '#fff',\n\t\tbackground: '#fff',\n\t\terror: '#b00020',\n\t},\n\tbreakpoints: ['40em', '52em', '64em', '76em'],\n\tspace: [0, 4, 8, 16, 32, 64, 128, 256, 512],\n};\n\nexport type Theme = typeof theme;\n\nexport default styled as CreateStyled<Theme>;\n"],
+  "mappings": "AAAA;AAEO,aAAM,QAAQ;AAAA,EACpB,QAAQ;AAAA,IACP,SAAS;AAAA,IACT,cAAc;AAAA,IACd,WAAW;AAAA,IACX,SAAS;AAAA,IACT,QAAQ;AAAA,IACR,SAAS;AAAA,IACT,YAAY;AAAA,IACZ,OAAO;AAAA;AAAA,EAER,aAAa,CAAC,QAAQ,QAAQ,QAAQ;AAAA,EACtC,OAAO,CAAC,GAAG,GAAG,GAAG,IAAI,IAAI,IAAI,KAAK,KAAK;AAAA;AAKxC,eAAe;",
+  "names": []
+}

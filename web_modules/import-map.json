@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "@emotion/core": "./@emotion/core.js",
+    "@emotion/is-prop-valid": "./@emotion/is-prop-valid.js",
+    "emotion-theming": "./emotion-theming.js",
+    "react": "./react.js",
+    "react-dom": "./react-dom.js",
+    "styled-system": "./styled-system.js"
+  }
+}

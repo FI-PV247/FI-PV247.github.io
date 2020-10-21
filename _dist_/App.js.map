@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["C:\\Projects\\_PV247\\PV247\\src\\App.tsx"],
+  "sourcesContent": ["import React from 'react';\n\nfunction App() {\n\treturn (\n\t\t<div className=\"App\">\n\t\t\t<header className=\"App-header\">\n\t\t\t\t<p>\n\t\t\t\t\tEdit <code>src/App.tsx</code> and save to reload.\n\t\t\t\t</p>\n\t\t\t\t<a\n\t\t\t\t\tclassName=\"App-link\"\n\t\t\t\t\thref=\"https://reactjs.org\"\n\t\t\t\t\ttarget=\"_blank\"\n\t\t\t\t\trel=\"noopener noreferrer\"\n\t\t\t\t>\n\t\t\t\t\tLearn React\n\t\t\t\t</a>\n\t\t\t</header>\n\t\t</div>\n\t);\n}\n\nexport default App;\n"],
+  "mappings": "AAAA;AAEA;AACC,SACC,oCAAC,OAAD;AAAA,IAAK,WAAU;AAAA,KACd,oCAAC,UAAD;AAAA,IAAQ,WAAU;AAAA,KACjB,oCAAC,KAAD,MAAG,SACG,oCAAC,QAAD,MAAM,gBAAkB,yBAE9B,oCAAC,KAAD;AAAA,IACC,WAAU;AAAA,IACV,MAAK;AAAA,IACL,QAAO;AAAA,IACP,KAAI;AAAA,KACJ;AAAA;AAQL,eAAe;",
+  "names": []
+}

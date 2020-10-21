@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["C:\\Projects\\_PV247\\PV247\\src\\Components\\Styled\\Typography.ts"],
+  "sourcesContent": ["import { css } from '@emotion/core';\n\nimport { Box, BoxProps } from 'Components/Styled';\n\nimport styled from 'Theme';\n\ntype Props = {\n\tellipsis?: boolean;\n};\n\nconst Typography = styled(Box)<BoxProps & Props>`\n\t${p =>\n\t\tp.ellipsis &&\n\t\tcss`\n\t\t\twhite-space: nowrap;\n\t\t\ttext-overflow: ellipsis;\n\t\t\toverflow: hidden;\n\t\t`}\n`.withComponent('p');\n\nexport default Typography;\n"],
+  "mappings": "AAAA;AAEA;AAEA;AAMA,MAAM,aAAa,OAAO;AAAA,GACvB,OACD,EAAE,YACF;AAAA;AAAA;AAAA;AAAA;AAAA,EAKA,cAAc;AAEhB,eAAe;",
+  "names": []
+}

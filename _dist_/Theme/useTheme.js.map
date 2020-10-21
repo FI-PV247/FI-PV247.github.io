@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["C:\\Projects\\_PV247\\PV247\\src\\Theme\\useTheme.ts"],
+  "sourcesContent": ["import { useTheme } from 'emotion-theming';\n\nimport type { Theme } from '.';\n\nexport default useTheme as () => Theme;\n"],
+  "mappings": "AAAA;AAIA,eAAe;",
+  "names": []
+}

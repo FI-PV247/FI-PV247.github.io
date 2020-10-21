@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["C:\\Projects\\_PV247\\PV247\\src\\index.tsx"],
+  "sourcesContent": ["import React from 'react';\nimport ReactDOM from 'react-dom';\n\nimport App from './App';\n\nReactDOM.render(\n\t<React.StrictMode>\n\t\t<App />\n\t</React.StrictMode>,\n\tdocument.getElementById('root'),\n);\n\n// Hot Module Replacement (HMR) - Remove this snippet to remove HMR.\n// Learn more: https://www.snowpack.dev/#hot-module-replacement\nif (import.meta.hot) {\n\timport.meta.hot.accept();\n}\n"],
+  "mappings": "AAAA;AACA;AAEA;AAEA,SAAS,OACR,oCAAC,MAAM,YAAP,MACC,oCAAC,MAAD,QAED,SAAS,eAAe;AAKzB,IAAI,YAAY;AACf,cAAY,IAAI;AAAA;",
+  "names": []
+}
