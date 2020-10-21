@@ -1,7 +1,7 @@
 module.exports = {
 	mount: {
 		public: '/',
-		src: '/modules',
+		src: '/_dist_',
 	},
 	plugins: [
 		'@snowpack/plugin-react-refresh',
